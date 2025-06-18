@@ -107,14 +107,15 @@ nav {
     background-image: url('images/image1.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 60px;
     z-index: 1;
     overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .home-page::before {
@@ -191,7 +192,7 @@ nav {
     border-radius: 20px;
     color: white;
     gap: 10px;
-    right: -113px;
+    right: -95px;
     top: 50%;
     transform: translateY(-50%) rotate(-90deg);
 }
@@ -212,7 +213,6 @@ nav {
     background-image: url("images/image2.png");
     background-size: cover;
     background-position: center;
-    min-height: 60vh;
     width: 100%;
     padding: 30px 0;
     display: flex;
@@ -478,6 +478,10 @@ nav {
     width: 100%;
 }
 
+.steps-sm {
+    display: none;
+}
+
 .step-1 {
     display: flex;
     flex-direction: column;
@@ -516,7 +520,6 @@ nav {
 /* fifth-page */
 
 .fifth-page {
-    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -528,7 +531,7 @@ nav {
 .video-background {
     position: relative;
     width: 100%;
-    height: 180vh;
+    height: 72vh;
     overflow: hidden;
     object-fit: cover;
     /* border-top-left-radius:80% 25%;
@@ -604,7 +607,6 @@ nav {
 
 /* review-page */
 .review-page {
-    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -741,7 +743,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    padding-top: 20px;
+    padding-bottom: 30px;
     width: 100%;
 }
 
@@ -756,7 +759,6 @@ nav {
 /* footer-image */
 
 .footer-image {
-    height: 45vh;
     width: 100%;
     background-image: url(images/sample.png);
     display: flex;
@@ -859,6 +861,49 @@ nav {
         font-size: 4em !important;
     }
 
+    .steps {
+        display: none;
+    }
+
+    .steps-sm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sm1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rotate {
+        transform: rotate(133deg);
+    }
+
+    .sm2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .rotate2 {
+        transform: rotate(201deg);
+    }
+
+    .step-1 img.width {
+        width: 150px;
+        height: auto;
+    }
+
+    .step-1 h4 {
+        font-size: 1.5rem;
+    }
+
     .data h3 {
         font-size: 2.5rem;
     }
@@ -875,8 +920,8 @@ nav {
         height: 33vh;
     }
 
-    .review-page {
-        height: 40vh;
+    .fourth-page h2 {
+        font-size: 3em;
     }
 
     .download h6 {
@@ -965,10 +1010,6 @@ nav {
         height: 25px;
     }
 
-    .footer-image {
-        height: 28vh;
-    }
-
     .footer {
         height: 15vh;
     }
@@ -995,14 +1036,20 @@ nav {
         width: 81px;
     }
 
-    @media (max-width: 768px) {
-
-        .card ul,
-        .card h6,
-        .card h3 {
-            display: none;
-        }
+    .card ul,
+    .card h6,
+    .card h3 {
+        display: none;
     }
+
+    .box1 {
+        width: 220px;
+        height: 220px;
+    }
+        .arrow img {
+        width: 110px;
+    }
+
 }
 
 @media (max-width: 565px) {
@@ -1064,10 +1111,136 @@ nav {
     }
 
     .second-page .heading h3 {
-        font-size: 28px;
+        font-size: 33px;
     }
 
     .small {
         width: 15rem 240px;
     }
+
+    .card-img-top {
+        width: 116%;
+        height: 176px;
+    }
+
+    .card-wrapper {
+        gap: 17px;
+    }
+
+    .home-page {
+        padding-top: 20px;
+    }
+
+    card .btn-primary {
+        padding: 10px 4px;
+    }
+
+    .third-page h3 {
+        font-size: 33px;
+    }
+
+    .servise-box .g1 {
+        gap: 20px;
+    }
+
+    .servise-box .g2 {
+        gap: 20px;
+    }
+
+    .box1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .box1 h6 {
+        font-size: 13px;
+    }
+
+    .fourth-page h2 {
+        font-size: 32px;
+    }
+
+    .available h6 {
+        font-size: 1em;
+    }
+
+    .home-page {
+        padding-bottom: 10px;
+    }
+
+    .box1 img {
+        width: 48px;
+        height: auto;
+    }
+
+    .video-background .content h2 {
+        font-size: 2em !important;
+    }
+
+    .available {
+        padding: 4px 15px;
+        right: -88px;
+    }
+
+    .steps {
+        display: none;
+    }
+
+    .steps-sm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sm1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rotate {
+        transform: rotate(133deg);
+    }
+
+    .sm2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .rotate2 {
+        transform: rotate(201deg);
+    }
+
+    .step-1 img.width {
+        width: 100px;
+        height: auto;
+    }
+
+    .step-1 h4 {
+        font-size: 1rem;
+    }
+
+    .review-page {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    .gallery h3 {
+        font-size: 1.5rem;
+    }
+
+    .footer-image h2 {
+        font-size: 1.8em;
+    }
+
+    .footer-image p {
+        width: 25ch;
+        font-size: 1.3em;
+    }
+
 }
