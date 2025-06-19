@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+</head>
+
+<body>
+
+    <div class="header-msg">
+        "रसोई से जुड़ी यादें, अब बनें आपकी आदत! 🍛👨‍🍳❤️‍🔥"
+    </div>
+    <!-- navigation bar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" class="nav-logo" alt="logo">
+        </div>
+    </nav>
+    <!-- home page -->
+    <div class="home-page">
+        <div class="content">
+            <h2>Fill out the form or Call us at +91882xxx05 🚀</h2>
+            <div class="form-box">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter your name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name"
+                            required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="username" class="form-label">Mobile Number</label>
+                        <div class="input-group">
+                            <span class="input-group-text">+91</span>
+                            <input type="number" class="form-control" id="number" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label query">Your Query</label>
+                        <input type="text" class="form-control" id="firstName"
+                            placeholder="Please write your message in detail" required>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="terms" required>
+                        <label class="form-check-label agree" for="terms">
+                            Agree to terms and conditions
+                        </label>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn btn-warning px-5 py-2 submit" type="submit">Submit</button>
+                    </div>
+            </div>
+
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- asked questions -->
+    <div class="asked-questions">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+
+            <!-- Q1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne">
+                        What does ChefKart do?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        ChefKart is a platform that seamlessly connects households with the ideal cook based on their
+                        specific needs and requirements.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo">
+                        How can I book a cook?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        You can book a cook through the ChefKart website or mobile app by entering your requirements and
+                        preferences.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree">
+                        What cuisines do the cooks specialize in?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        ChefKart cooks are trained in a wide range of Indian regional cuisines including North Indian,
+                        South Indian, Bengali, Gujarati, and more.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour">
+                        How are cooks onboarded?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Cooks list themselves on the ChefKart Partner App. We verify their background, conduct
+                        assessments, and provide mandatory training before assigning them to households.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive">
+                        How to reach ChefKart Support?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        You can reach out to our Customer Support via the Help & Support section on the app or email us
+                        at support@chefkart.com.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix">
+                        Is there a trial period available?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we offer a trial period where you can evaluate the cook's performance before committing to
+                        a long-term service.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="footer sm">
+        <div class="logo-2">
+            <img src="contactus images/logo.png" class="nav-logo" alt="logo">
+        </div>
+        <div>
+            <hr>
+        </div>
+        <span>copyrights@2025</span>
+        <span>website by-aakash</span>
+    </div>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.1/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="contact.js"></script>
+
+</body>
+
+</html>

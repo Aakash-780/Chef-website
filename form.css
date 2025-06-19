@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.header-msg {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  background-color: #FAEEE6;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #1b2123;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.nav-logo {
+  width: 126px;
+  height: 50px;
+}
+
+
+.home-page {
+  position: relative;
+  background-image: url('form images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  z-index: 1;
+}
+
+.home-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  max-width: 800px;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.form-label {
+  color: #ffc107;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.agree {
+  color: white;
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.input-group-text {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 10px 0 0 10px;
+}
+
+.btn-warning {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.btn-warning:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  background-color: #f7f7f7;
+  padding: 20px;
+  width: 100%;
+}
+
+.available h6 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  border-radius: 15px;
+  background-color: orange;
+  padding: 5px 12px;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+/* forth page */
+.fourth-page {
+  padding: 60px 20px;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.resposive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.fourth-page h2 {
+  font-size: 4em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.steps-sm {
+  display: none;
+}
+
+.step-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: inline;
+  text-align: center;
+}
+
+.step-1 h4 {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.step-1 p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.8rem;
+  text-align: left;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.arrow img {
+  width: 120px;
+  height: auto;
+}
+
+/* navigation bar */
+.sm {
+  background-color: #1b2123;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sm span {
+  color: white;
+  font-size: 10px;
+}
+
+
+.w-14 {
+  width: 12.28% !important;
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    width: 150px;
+    height: 55px;
+  }
+
+  .header-msg {
+    font-size: 1.5rem;
+  }
+
+  .w-14 {
+    width: 12.28% !important;
+  }
+
+  .content h2 {
+    font-size: 25px;
+  }
+
+  .form-box {
+    padding: 20px 65px;
+  }
+
+  .fourth-page h2 {
+    font-size: 2rem;
+  }
+
+  .step-1 p {
+    font-size: 10px;
+    color: black;
+    line-height: 1rem;
+  }
+
+  .step-1 h4 {
+    font-size: 13px;
+  }
+
+  .nav-logo {
+    width: 141px;
+    height: 56px;
+  }
+
+  .footer1 h3 {
+    font-size: 1em;
+  }
+
+  .footer2 h3 {
+    font-size: 1em;
+  }
+
+  .footer3 h6 {
+    font-size: 1em;
+  }
+
+  .media-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .nav-logo {
+    width: 88px;
+    height: 33px;
+  }
+
+}

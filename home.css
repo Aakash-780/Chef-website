@@ -114,8 +114,8 @@ nav {
     padding-left: 60px;
     z-index: 1;
     overflow: hidden;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .home-page::before {
@@ -766,6 +766,8 @@ nav {
     justify-content: center;
     align-items: center;
     background-size: cover;
+    padding-top:160px;
+    padding-bottom: 160px;
 }
 
 .footer-image h2 {
@@ -786,9 +788,10 @@ nav {
 /* footer-design */
 .footer {
     margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     background-color: #1b2123;
-    height: 20vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -818,10 +821,29 @@ nav {
     justify-content: center;
     font-weight: bold;
 }
-
+.footer1 h3{
+    font-size: 20px;
+}
+.footer2 h3{
+    font-size: 20px;
+}
 .footer3 h6 {
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: bold;
+}
+.footer1 a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer1 a:hover {
+  color: orange; 
+}
+.footer2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer2 a:hover {
+  color: orange; 
 }
 
 .media {
@@ -837,7 +859,7 @@ nav {
 }
 
 .w-14 {
-    width: 14.28% !important;
+    width: 13.28% !important;
 }
 
 .card-wrapper {
@@ -912,13 +934,6 @@ nav {
         font-size: 1em;
     }
 
-    .gallery {
-        height: 40vh;
-    }
-
-    .video-background {
-        height: 33vh;
-    }
 
     .fourth-page h2 {
         font-size: 3em;
@@ -1046,11 +1061,30 @@ nav {
         width: 220px;
         height: 220px;
     }
-        .arrow img {
+
+    .arrow img {
         width: 110px;
     }
 
+    .nav-logo {
+        width: 120px;
+        height: 46px;
+    }
+
+    .footer2 h3 {
+        font-size: 10px;
+    }
+
+    .footer1 h3 {
+        font-size: 10px;
+    }
+
+    .footer3 h6 {
+        font-size: 10px;
+    }
 }
+
+
 
 @media (max-width: 565px) {
 
