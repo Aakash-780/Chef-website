@@ -299,3 +299,66 @@ nav {
   }
 
 }
+
+
+@media (max-width: 565px) {
+
+  .steps {
+    display: none;
+  }
+
+  .steps-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sm1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rotate {
+    transform: rotate(133deg);
+  }
+
+  .sm2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .rotate2 {
+    transform: rotate(201deg);
+  }
+
+  .step-1 img.width {
+    width: 100px;
+    height: auto;
+  }
+
+  .step-1 h4 {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+
+  .step-1 img.width {
+    width: 65px;
+    height: auto;
+  }
+
+  .arrow img {
+    width: 80px;
+    height: auto;
+  }
+
+}
