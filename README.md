@@ -1,41 +1,45 @@
-# 🍽️ ChefCart Clone – Chef Booking Website
+# 🍽️ ChefCart – Book Professional Chefs with Ease
 
-Welcome to **ChefCart Clone** – a beautifully designed, responsive web application that lets users **book professional cooks** for:
+**ChefCart** is a fully functional, mobile-responsive website that allows users to **book professional chefs** for:
 
 - 🎉 One-time occasions  
 - 🏠 Home gatherings  
 - 🎂 Birthday parties  
 - 🍾 Special celebrations  
 
-Whether you're hosting a house party or just want a break from cooking, this platform connects you with skilled cooks in just a few clicks!
+Whether you're planning a party or just need a break from the kitchen, ChefCart connects you with skilled chefs in just a few clicks.
+
+---
+
+## 🌐 Live Website
+
+👉 [Visit Now](https://chef-website-87459.web.app)
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Browse Available Cooks** – View profiles with experience, specialties, and ratings  
-- 🧑‍🍳 **Book Instantly** – Simple booking flow for hassle-free scheduling  
-- 📆 **Event-Based Requests** – Choose date, time, and purpose  
-- 📱 **Responsive Design** – Fully optimized for mobiles, tablets, and desktops  
-- 🎨 **Clean UI/UX** – Modern look using Bootstrap and smooth JavaScript interactions
+- 🔍 **Browse Chef Profiles** – Experience, specialties, and user ratings  
+- 🧑‍🍳 **Instant Booking** – Event-specific booking forms  
+- 📞 **Contact Page** – Fully functional inquiry form  
+- 📱 **Responsive Design** – Works smoothly on all devices  
+- 🎨 **Modern UI** – Built with Bootstrap and JavaScript
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech           | Purpose                              |
-|----------------|--------------------------------------|
-| ⚙️ HTML         | Structure of the web pages           |
-| 🎨 CSS          | Styling and layout                   |
-| 🎯 Bootstrap    | Responsive design & UI components    |
-| ⚡ JavaScript   | Dynamic interactions and client-side logic |
+| Technology   | Purpose                                 |
+|--------------|------------------------------------------|
+| HTML         | Page structure                           |
+| CSS          | Styling and layout                       |
+| Bootstrap    | Responsive design and UI components      |
+| JavaScript   | Dynamic interactions and client-side logic|
 
 ---
 
-## 💡 What Makes It Special?
+## ✅ Highlights
 
-- Built with **clean code** and modern design principles  
-- Uses **Bootstrap** for fast, responsive layout  
-- Perfect for learning or showcasing **frontend web development**  
-- A great base for event/cook booking platforms
-
+- All buttons and navigation links are functional  
+- Booking and Contact pages work seamlessly  
+- Clean, mobile-first design suitable for real-world use or portfolios
