@@ -1491,5 +1491,16 @@ nav {
         display: none;
     }
 
-}
+    .small-screen {
+        display: none;
+    }
 
+    .w-50 {
+        width: 65% !important;
+    }
+
+    .gallery h3 {
+        font-size: 1.2rem;
+    }
+
+}
